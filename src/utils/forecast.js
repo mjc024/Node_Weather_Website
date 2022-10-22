@@ -17,7 +17,7 @@ const forecast=(lat,lon,callback)=>{
             //  let rain=response.body.current.temperature
             //  console.log(response.body.current.weather_descriptions[0]+ " TEMP: "+rain+" Precip Chance: "+precip)
              callback(undefined,
-                body.current.weather_descriptions[0]+", It is "+body.current.temperature+" degree. Chances of rain are "+body.current.precip+".",
+                  'It is '+body.current.weather_descriptions[0]+" out there, It is "+body.current.temperature+" degrees. Chances of rain are "+body.current.precip+"." ,
                 // temperature:body.current.temperature,
                 // probRain:body.current.precip
              )    
